@@ -1,0 +1,12 @@
+
+State Machine - |wrapper|codec:kit|i2c:i2c_configure|state
+Name state.ACK_3 state.SECOND_DATA state.ACK_2 state.FIRST_DATA state.ACK_1 state.ADDRESS state.START state.IDLE state.STOP 
+state.IDLE 0 0 0 0 0 0 0 0 0 
+state.START 0 0 0 0 0 0 1 1 0 
+state.ADDRESS 0 0 0 0 0 1 0 1 0 
+state.ACK_1 0 0 0 0 1 0 0 1 0 
+state.FIRST_DATA 0 0 0 1 0 0 0 1 0 
+state.ACK_2 0 0 1 0 0 0 0 1 0 
+state.SECOND_DATA 0 1 0 0 0 0 0 1 0 
+state.ACK_3 1 0 0 0 0 0 0 1 0 
+state.STOP 0 0 0 0 0 0 0 1 1 
