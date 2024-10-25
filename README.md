@@ -4,4 +4,4 @@ You need replace the file "coefficient" path with the address on your computer t
 
 You should download the "doc" folder to view the system block diagram. 
 
-I will update a report file later!!!
+I will update the report file and provide evidence on the FPGA kit later.
