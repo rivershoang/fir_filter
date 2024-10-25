@@ -1,8 +1,7 @@
-# Filters
-Design of filters (DSP). Implement on Altera De10-Standard (using Audio CODEC). 
+# Design of FIR filter (DSP). Implement on Altera De10-Standard (using Audio CODEC). 
 
 You need replace the file "coefficient" path with the address on your computer to ensure system accuracy.
 
-You should download the "doc" folder to view the system block diagram.
+You should download the "doc" folder to view the system block diagram. 
 
 I will update report later!!!
