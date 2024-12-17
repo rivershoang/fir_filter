@@ -1,0 +1,36 @@
+
+State Machine - |top|paralell_serial:p2s|state_q
+Name state_q.RIGHT_SEND_4 state_q.RIGHT_SEND_3 state_q.RIGHT_READY state_q.STOP_LEFT state_q.LEFT_SEND_2 state_q.LEFT_SEND_1 state_q.LEFT_READY state_q.IDLE state_q.STOP_RIGHT 
+state_q.IDLE 0 0 0 0 0 0 0 0 0 
+state_q.LEFT_READY 0 0 0 0 0 0 1 1 0 
+state_q.LEFT_SEND_1 0 0 0 0 0 1 0 1 0 
+state_q.LEFT_SEND_2 0 0 0 0 1 0 0 1 0 
+state_q.STOP_LEFT 0 0 0 1 0 0 0 1 0 
+state_q.RIGHT_READY 0 0 1 0 0 0 0 1 0 
+state_q.RIGHT_SEND_3 0 1 0 0 0 0 0 1 0 
+state_q.RIGHT_SEND_4 1 0 0 0 0 0 0 1 0 
+state_q.STOP_RIGHT 0 0 0 0 0 0 0 1 1 
+
+State Machine - |top|audio_codec:codec|i2c_protocol:i2c|state_q
+Name state_q.DONE state_q.STOP state_q.BUF_2 state_q.DATA_SEND_4 state_q.DATA_SEND_3 state_q.DATA_SEND_2 state_q.DATA_SEND_1 state_q.BUF_1 state_q.START_CONT state_q.START state_q.IDLE 
+state_q.IDLE 0 0 0 0 0 0 0 0 0 0 0 
+state_q.START 0 0 0 0 0 0 0 0 0 1 1 
+state_q.START_CONT 0 0 0 0 0 0 0 0 1 0 1 
+state_q.BUF_1 0 0 0 0 0 0 0 1 0 0 1 
+state_q.DATA_SEND_1 0 0 0 0 0 0 1 0 0 0 1 
+state_q.DATA_SEND_2 0 0 0 0 0 1 0 0 0 0 1 
+state_q.DATA_SEND_3 0 0 0 0 1 0 0 0 0 0 1 
+state_q.DATA_SEND_4 0 0 0 1 0 0 0 0 0 0 1 
+state_q.BUF_2 0 0 1 0 0 0 0 0 0 0 1 
+state_q.STOP 0 1 0 0 0 0 0 0 0 0 1 
+state_q.DONE 1 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |top|audio_codec:codec|config_codec:configcodec|state_q
+Name state_q.DONE state_q.SEND_LAST state_q.IS_READY state_q.SEND_2 state_q.SEND_1 state_q.IS_CONFIG state_q.IDLE 
+state_q.IDLE 0 0 0 0 0 0 0 
+state_q.IS_CONFIG 0 0 0 0 0 1 1 
+state_q.SEND_1 0 0 0 0 1 0 1 
+state_q.SEND_2 0 0 0 1 0 0 1 
+state_q.IS_READY 0 0 1 0 0 0 1 
+state_q.SEND_LAST 0 1 0 0 0 0 1 
+state_q.DONE 1 0 0 0 0 0 1 

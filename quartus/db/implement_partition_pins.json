@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "bclk",
+					"strict" : false
+				},
+				{
+					"name" : "serial_data",
+					"strict" : false
+				},
+				{
+					"name" : "xck",
+					"strict" : false
+				},
+				{
+					"name" : "daclrck",
+					"strict" : false
+				},
+				{
+					"name" : "sclk",
+					"strict" : false
+				},
+				{
+					"name" : "sdin",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "sw[0]",
+					"strict" : false
+				},
+				{
+					"name" : "is_key_config[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
