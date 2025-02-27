@@ -4,7 +4,7 @@ You need replace the file "coefficient" path with the address on your computer t
 
 You should download the `doc` to view the system block diagram. 
 
-I am too lazy to do "demo FPGA" part so I will do it later
+I am too lazy to do "demo FPGA" part on report so I will do it later
 
 [Group10_Lab1_Report.pdf](report/Group10_Lab1_Report.pdf)
 
