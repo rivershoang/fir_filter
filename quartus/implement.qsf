@@ -452,21 +452,6 @@ set_location_assignment PIN_E17 -to HPS_LCM_RST_N
 set_location_assignment PIN_A23 -to HPS_LCM_SPIM_CLK
 set_location_assignment PIN_C22 -to HPS_LCM_SPIM_MOSI
 set_location_assignment PIN_H20 -to HPS_LCM_SPIM_SS
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/audio_codec.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/clk_12M.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/clk_400K.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/config_codec.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/count_addr_RAM.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/FIR_pipeline2.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/gain.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/i2c_protocol.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/multi.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/my_DFF.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/my_DFF_40.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/paralell_serial.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/single_port_RAM.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/tb_config_top.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../source_new/top.sv
 set_location_assignment PIN_AF14 -to clk
 set_location_assignment PIN_AJ4 -to reset_n
 set_location_assignment PIN_AK4 -to is_key_config[1]
@@ -478,10 +463,22 @@ set_location_assignment PIN_AF30 -to bclk
 set_location_assignment PIN_Y24 -to sclk
 set_location_assignment PIN_Y23 -to sdin
 set_location_assignment PIN_AB30 -to sw[0]
-set_global_assignment -name SYSTEMVERILOG_FILE ../src/FIR_transpose.sv
-set_global_assignment -name SDC_FILE ../quartus/sdc.sdc
-set_global_assignment -name SYSTEMVERILOG_FILE ../src/FIR_pipeline3.sv
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/audio_codec.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/clk_12M.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/clk_400K.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/config_codec.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/count_addr_RAM.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/FIR.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/FIR_pipeline2.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/gain.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/i2c_protocol.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/multi.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/my_DFF.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/my_DFF_40.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/paralell_serial.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/single_port_RAM.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../src/top.sv
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

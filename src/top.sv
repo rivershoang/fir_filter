@@ -51,9 +51,9 @@ module top (
       .addr    (addr_RAM)
    );
 
-   iir_filter iir (
-      .clk_i        (clk_sample)      ,
-      .rst_ni    (reset_n)         ,
+   FIR_pipeline2 fir (
+      .clk        (clk_sample)      ,
+      .reset_n    (reset_n)         ,
       .data_in    (data_send_filter),
       .data_out   (data_filterd)
    );

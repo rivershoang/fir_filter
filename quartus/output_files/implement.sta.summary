@@ -2,52 +2,244 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Slow 1100mV 85C Model Setup 'paralell_serial:p2s|state_q.LEFT_READY'
+Slack : -10.936
+TNS   : -34833.665
+
 Type  : Slow 1100mV 85C Model Setup 'clk'
-Slack : 20826.244
+Slack : -5.335
+TNS   : -136.477
+
+Type  : Slow 1100mV 85C Model Setup 'clk_400K:clock_gen_400K|clk_out'
+Slack : -3.078
+TNS   : -57.139
+
+Type  : Slow 1100mV 85C Model Setup 'clk_12M:clock_gen_12M|clk_out'
+Slack : -2.387
+TNS   : -55.723
+
+Type  : Slow 1100mV 85C Model Setup 'audio_codec:codec|config_codec:configcodec|state_q.SEND_1'
+Slack : -1.923
+TNS   : -18.283
+
+Type  : Slow 1100mV 85C Model Hold 'clk_400K:clock_gen_400K|clk_out'
+Slack : 0.323
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk_12M:clock_gen_12M|clk_out'
+Slack : 0.356
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'clk'
-Slack : 0.377
+Slack : 0.375
 TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'audio_codec:codec|config_codec:configcodec|state_q.SEND_1'
+Slack : 0.526
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'paralell_serial:p2s|state_q.LEFT_READY'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'paralell_serial:p2s|state_q.LEFT_READY'
+Slack : -2.174
+TNS   : -12609.956
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
-Slack : 10415.611
-TNS   : 0.000
+Slack : -0.471
+TNS   : -30.727
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_400K:clock_gen_400K|clk_out'
+Slack : -0.394
+TNS   : -19.991
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_12M:clock_gen_12M|clk_out'
+Slack : -0.394
+TNS   : -16.753
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'audio_codec:codec|config_codec:configcodec|state_q.SEND_1'
+Slack : -0.394
+TNS   : -6.336
+
+Type  : Slow 1100mV 0C Model Setup 'paralell_serial:p2s|state_q.LEFT_READY'
+Slack : -10.841
+TNS   : -34360.670
 
 Type  : Slow 1100mV 0C Model Setup 'clk'
-Slack : 20826.511
+Slack : -5.448
+TNS   : -135.797
+
+Type  : Slow 1100mV 0C Model Setup 'clk_400K:clock_gen_400K|clk_out'
+Slack : -3.036
+TNS   : -56.030
+
+Type  : Slow 1100mV 0C Model Setup 'clk_12M:clock_gen_12M|clk_out'
+Slack : -2.392
+TNS   : -54.782
+
+Type  : Slow 1100mV 0C Model Setup 'audio_codec:codec|config_codec:configcodec|state_q.SEND_1'
+Slack : -1.881
+TNS   : -17.372
+
+Type  : Slow 1100mV 0C Model Hold 'clk_400K:clock_gen_400K|clk_out'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk_12M:clock_gen_12M|clk_out'
+Slack : 0.359
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'clk'
-Slack : 0.379
+Slack : 0.380
 TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'audio_codec:codec|config_codec:configcodec|state_q.SEND_1'
+Slack : 0.471
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'paralell_serial:p2s|state_q.LEFT_READY'
+Slack : 0.592
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'paralell_serial:p2s|state_q.LEFT_READY'
+Slack : -2.174
+TNS   : -12487.272
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
-Slack : 10415.623
-TNS   : 0.000
+Slack : -0.456
+TNS   : -32.925
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_400K:clock_gen_400K|clk_out'
+Slack : -0.394
+TNS   : -19.736
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_12M:clock_gen_12M|clk_out'
+Slack : -0.394
+TNS   : -16.930
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'audio_codec:codec|config_codec:configcodec|state_q.SEND_1'
+Slack : -0.394
+TNS   : -6.122
+
+Type  : Fast 1100mV 85C Model Setup 'paralell_serial:p2s|state_q.LEFT_READY'
+Slack : -6.289
+TNS   : -19376.848
 
 Type  : Fast 1100mV 85C Model Setup 'clk'
-Slack : 20828.313
+Slack : -3.129
+TNS   : -58.038
+
+Type  : Fast 1100mV 85C Model Setup 'clk_400K:clock_gen_400K|clk_out'
+Slack : -1.737
+TNS   : -27.221
+
+Type  : Fast 1100mV 85C Model Setup 'clk_12M:clock_gen_12M|clk_out'
+Slack : -1.403
+TNS   : -26.573
+
+Type  : Fast 1100mV 85C Model Setup 'audio_codec:codec|config_codec:configcodec|state_q.SEND_1'
+Slack : -1.079
+TNS   : -9.945
+
+Type  : Fast 1100mV 85C Model Hold 'audio_codec:codec|config_codec:configcodec|state_q.SEND_1'
+Slack : 0.097
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk_12M:clock_gen_12M|clk_out'
+Slack : 0.153
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk_400K:clock_gen_400K|clk_out'
+Slack : 0.156
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'clk'
-Slack : 0.183
+Slack : 0.182
 TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'paralell_serial:p2s|state_q.LEFT_READY'
+Slack : 0.373
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'paralell_serial:p2s|state_q.LEFT_READY'
+Slack : -2.174
+TNS   : -10298.452
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
-Slack : 10415.630
+Slack : -0.448
+TNS   : -5.877
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_12M:clock_gen_12M|clk_out'
+Slack : -0.001
+TNS   : -0.003
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_400K:clock_gen_400K|clk_out'
+Slack : 0.013
 TNS   : 0.000
 
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'audio_codec:codec|config_codec:configcodec|state_q.SEND_1'
+Slack : 0.014
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'paralell_serial:p2s|state_q.LEFT_READY'
+Slack : -5.741
+TNS   : -17216.418
+
 Type  : Fast 1100mV 0C Model Setup 'clk'
-Slack : 20828.847
+Slack : -2.735
+TNS   : -50.109
+
+Type  : Fast 1100mV 0C Model Setup 'clk_400K:clock_gen_400K|clk_out'
+Slack : -1.515
+TNS   : -23.094
+
+Type  : Fast 1100mV 0C Model Setup 'clk_12M:clock_gen_12M|clk_out'
+Slack : -1.233
+TNS   : -22.561
+
+Type  : Fast 1100mV 0C Model Setup 'audio_codec:codec|config_codec:configcodec|state_q.SEND_1'
+Slack : -0.891
+TNS   : -8.313
+
+Type  : Fast 1100mV 0C Model Hold 'audio_codec:codec|config_codec:configcodec|state_q.SEND_1'
+Slack : 0.038
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk_12M:clock_gen_12M|clk_out'
+Slack : 0.119
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk_400K:clock_gen_400K|clk_out'
+Slack : 0.139
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Hold 'clk'
-Slack : 0.174
+Slack : 0.171
 TNS   : 0.000
 
+Type  : Fast 1100mV 0C Model Hold 'paralell_serial:p2s|state_q.LEFT_READY'
+Slack : 0.350
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'paralell_serial:p2s|state_q.LEFT_READY'
+Slack : -2.174
+TNS   : -10089.523
+
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
-Slack : 10415.638
+Slack : -0.426
+TNS   : -5.891
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_12M:clock_gen_12M|clk_out'
+Slack : 0.027
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'audio_codec:codec|config_codec:configcodec|state_q.SEND_1'
+Slack : 0.038
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_400K:clock_gen_400K|clk_out'
+Slack : 0.047
 TNS   : 0.000
 
 ------------------------------------------------------------

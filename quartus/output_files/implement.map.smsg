@@ -1,4 +1,4 @@
-Info (10281): Verilog HDL Declaration information at config_codec.sv(5): object "is_config" differs only in case from object "IS_CONFIG" in the same scope File: E:/Lecture/DSPonFPGA/FIR/source_new/config_codec.sv Line: 5
-Info (10281): Verilog HDL Declaration information at config_codec.sv(38): object "DONE" differs only in case from object "done" in the same scope File: E:/Lecture/DSPonFPGA/FIR/source_new/config_codec.sv Line: 38
-Info (10281): Verilog HDL Declaration information at i2c_protocol.sv(4): object "start" differs only in case from object "START" in the same scope File: E:/Lecture/DSPonFPGA/FIR/source_new/i2c_protocol.sv Line: 4
-Info (10281): Verilog HDL Declaration information at i2c_protocol.sv(11): object "done" differs only in case from object "DONE" in the same scope File: E:/Lecture/DSPonFPGA/FIR/source_new/i2c_protocol.sv Line: 11
+Info (10281): Verilog HDL Declaration information at config_codec.sv(5): object "is_config" differs only in case from object "IS_CONFIG" in the same scope File: E:/Lecture/DSPonFPGA/fir_filter/src/config_codec.sv Line: 5
+Info (10281): Verilog HDL Declaration information at config_codec.sv(38): object "DONE" differs only in case from object "done" in the same scope File: E:/Lecture/DSPonFPGA/fir_filter/src/config_codec.sv Line: 38
+Info (10281): Verilog HDL Declaration information at i2c_protocol.sv(4): object "start" differs only in case from object "START" in the same scope File: E:/Lecture/DSPonFPGA/fir_filter/src/i2c_protocol.sv Line: 4
+Info (10281): Verilog HDL Declaration information at i2c_protocol.sv(11): object "done" differs only in case from object "DONE" in the same scope File: E:/Lecture/DSPonFPGA/fir_filter/src/i2c_protocol.sv Line: 11
