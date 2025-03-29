@@ -1,4 +1,4 @@
-# Design of FIR filter (DSP). Implement on De10-Standard (using Audio CODEC). 
+# Hardware implementation of FIR filter on De10-Standard (using Audio CODEC). 
 
 You need replace the file "coefficient" path with the address on your computer to ensure system accuracy.
 
